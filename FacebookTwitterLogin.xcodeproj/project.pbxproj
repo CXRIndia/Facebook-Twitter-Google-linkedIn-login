@@ -13,7 +13,7 @@
 		AD1F50B61D477F6600B2EEE6 /* ViewControllerForTwitterDash.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1F50B51D477F6600B2EEE6 /* ViewControllerForTwitterDash.m */; };
 		AD1F50B81D47826F00B2EEE6 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AD1F50B71D47826F00B2EEE6 /* TwitterKitResources.bundle */; };
 		AD1F50BC1D47914600B2EEE6 /* ViewControllerForGoogleDash.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1F50BB1D47914600B2EEE6 /* ViewControllerForGoogleDash.m */; };
-		AD1F50BF1D4791F500B2EEE6 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = AD1F50BE1D4791F500B2EEE6 /* ReadMe */; };
+		AD1F50BF1D4791F500B2EEE6 /* ReadMe_old in Resources */ = {isa = PBXBuildFile; fileRef = AD1F50BE1D4791F500B2EEE6 /* ReadMe_old */; };
 		AD1F50C31D47948700B2EEE6 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AD1F50C11D47948700B2EEE6 /* GoogleSignIn.bundle */; };
 		AD1F50C41D47948700B2EEE6 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1F50C21D47948700B2EEE6 /* GoogleSignIn.framework */; };
 		AD1F50C61D4794A700B2EEE6 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1F50C51D4794A700B2EEE6 /* AddressBook.framework */; };
@@ -67,7 +67,7 @@
 		AD1F50B71D47826F00B2EEE6 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TwitterKitResources.bundle; sourceTree = "<group>"; };
 		AD1F50BA1D47914600B2EEE6 /* ViewControllerForGoogleDash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerForGoogleDash.h; sourceTree = "<group>"; };
 		AD1F50BB1D47914600B2EEE6 /* ViewControllerForGoogleDash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerForGoogleDash.m; sourceTree = "<group>"; };
-		AD1F50BE1D4791F500B2EEE6 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+		AD1F50BE1D4791F500B2EEE6 /* ReadMe_old */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe_old; sourceTree = "<group>"; };
 		AD1F50C11D47948700B2EEE6 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
 		AD1F50C21D47948700B2EEE6 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
 		AD1F50C51D4794A700B2EEE6 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
@@ -234,7 +234,7 @@
 		ADA86CEC1D47477C00422503 /* FacebookTwitterLogin */ = {
 			isa = PBXGroup;
 			children = (
-				AD1F50BE1D4791F500B2EEE6 /* ReadMe */,
+				AD1F50BE1D4791F500B2EEE6 /* ReadMe_old */,
 				AD1F50D91D4895C000B2EEE6 /* Header.h */,
 				ADA86CF01D47477C00422503 /* AppDelegate.h */,
 				ADA86CF11D47477C00422503 /* AppDelegate.m */,
@@ -405,7 +405,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD1F50BF1D4791F500B2EEE6 /* ReadMe in Resources */,
+				AD1F50BF1D4791F500B2EEE6 /* ReadMe_old in Resources */,
 				AD1F50B81D47826F00B2EEE6 /* TwitterKitResources.bundle in Resources */,
 				ADA86CFD1D47477C00422503 /* LaunchScreen.storyboard in Resources */,
 				ADA86CFA1D47477C00422503 /* Assets.xcassets in Resources */,
