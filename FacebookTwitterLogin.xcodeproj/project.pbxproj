@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD1F50AD1D476CAF00B2EEE6 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1F50AC1D476CAF00B2EEE6 /* Bolts.framework */; };
+		AD1F50B21D477E2300B2EEE6 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1F50B01D477E2300B2EEE6 /* Fabric.framework */; };
+		AD1F50B31D477E2300B2EEE6 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1F50B11D477E2300B2EEE6 /* TwitterKit.framework */; };
+		AD1F50B61D477F6600B2EEE6 /* ViewControllerForTwitterDash.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1F50B51D477F6600B2EEE6 /* ViewControllerForTwitterDash.m */; };
+		AD1F50B81D47826F00B2EEE6 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AD1F50B71D47826F00B2EEE6 /* TwitterKitResources.bundle */; };
+		AD1F50BC1D47914600B2EEE6 /* ViewControllerForGoogleDash.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1F50BB1D47914600B2EEE6 /* ViewControllerForGoogleDash.m */; };
+		AD1F50BF1D4791F500B2EEE6 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = AD1F50BE1D4791F500B2EEE6 /* ReadMe */; };
+		AD1F50C31D47948700B2EEE6 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AD1F50C11D47948700B2EEE6 /* GoogleSignIn.bundle */; };
+		AD1F50C41D47948700B2EEE6 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1F50C21D47948700B2EEE6 /* GoogleSignIn.framework */; };
+		AD1F50C61D4794A700B2EEE6 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1F50C51D4794A700B2EEE6 /* AddressBook.framework */; };
+		AD1F50C81D4794AF00B2EEE6 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1F50C71D4794AF00B2EEE6 /* SafariServices.framework */; };
+		AD1F50CA1D4794B700B2EEE6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1F50C91D4794B700B2EEE6 /* SystemConfiguration.framework */; };
+		AD1F50CC1D47971300B2EEE6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD1F50CB1D47971300B2EEE6 /* GoogleService-Info.plist */; };
+		AD1F50D21D488F1400B2EEE6 /* GoogleAppUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1F50CD1D488F1400B2EEE6 /* GoogleAppUtilities.framework */; };
+		AD1F50D31D488F1400B2EEE6 /* GoogleAuthUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1F50CE1D488F1400B2EEE6 /* GoogleAuthUtilities.framework */; };
+		AD1F50D41D488F1400B2EEE6 /* GoogleNetworkingUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1F50CF1D488F1400B2EEE6 /* GoogleNetworkingUtilities.framework */; };
+		AD1F50D51D488F1400B2EEE6 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1F50D01D488F1400B2EEE6 /* GoogleSymbolUtilities.framework */; };
+		AD1F50D61D488F1400B2EEE6 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1F50D11D488F1400B2EEE6 /* GoogleUtilities.framework */; };
+		AD1F50D81D4892EC00B2EEE6 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1F50D71D4892EC00B2EEE6 /* AdSupport.framework */; };
+		AD1F50DD1D48DB4700B2EEE6 /* ViewControllerForLinkedInDash.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1F50DC1D48DB4700B2EEE6 /* ViewControllerForLinkedInDash.m */; };
+		AD1F50E01D48DCC000B2EEE6 /* linkedin-sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1F50DF1D48DCC000B2EEE6 /* linkedin-sdk.framework */; };
+		ADA86CEF1D47477C00422503 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA86CEE1D47477C00422503 /* main.m */; };
+		ADA86CF21D47477C00422503 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA86CF11D47477C00422503 /* AppDelegate.m */; };
+		ADA86CF51D47477C00422503 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA86CF41D47477C00422503 /* ViewController.m */; };
+		ADA86CF81D47477C00422503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA86CF61D47477C00422503 /* Main.storyboard */; };
+		ADA86CFA1D47477C00422503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA86CF91D47477C00422503 /* Assets.xcassets */; };
+		ADA86CFD1D47477C00422503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA86CFB1D47477C00422503 /* LaunchScreen.storyboard */; };
+		ADA86D081D47477C00422503 /* FacebookTwitterLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA86D071D47477C00422503 /* FacebookTwitterLoginTests.m */; };
+		ADA86D131D47477C00422503 /* FacebookTwitterLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA86D121D47477C00422503 /* FacebookTwitterLoginUITests.m */; };
+		ADA86D231D47608000422503 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA86D211D47608000422503 /* FBSDKCoreKit.framework */; };
+		ADA86D241D47608000422503 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA86D221D47608000422503 /* FBSDKLoginKit.framework */; };
+		ADA86D281D4768C600422503 /* ViewControllerForFacebookDash.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA86D271D4768C600422503 /* ViewControllerForFacebookDash.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADA86D041D47477C00422503 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA86CE21D47477B00422503 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADA86CE91D47477B00422503;
+			remoteInfo = FacebookTwitterLogin;
+		};
+		ADA86D0F1D47477C00422503 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA86CE21D47477B00422503 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADA86CE91D47477B00422503;
+			remoteInfo = FacebookTwitterLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD1F50AC1D476CAF00B2EEE6 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		AD1F50B01D477E2300B2EEE6 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		AD1F50B11D477E2300B2EEE6 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		AD1F50B41D477F6600B2EEE6 /* ViewControllerForTwitterDash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerForTwitterDash.h; sourceTree = "<group>"; };
+		AD1F50B51D477F6600B2EEE6 /* ViewControllerForTwitterDash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerForTwitterDash.m; sourceTree = "<group>"; };
+		AD1F50B71D47826F00B2EEE6 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TwitterKitResources.bundle; sourceTree = "<group>"; };
+		AD1F50BA1D47914600B2EEE6 /* ViewControllerForGoogleDash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerForGoogleDash.h; sourceTree = "<group>"; };
+		AD1F50BB1D47914600B2EEE6 /* ViewControllerForGoogleDash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerForGoogleDash.m; sourceTree = "<group>"; };
+		AD1F50BE1D4791F500B2EEE6 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+		AD1F50C11D47948700B2EEE6 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		AD1F50C21D47948700B2EEE6 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		AD1F50C51D4794A700B2EEE6 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		AD1F50C71D4794AF00B2EEE6 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		AD1F50C91D4794B700B2EEE6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AD1F50CB1D47971300B2EEE6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AD1F50CD1D488F1400B2EEE6 /* GoogleAppUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppUtilities.framework; sourceTree = "<group>"; };
+		AD1F50CE1D488F1400B2EEE6 /* GoogleAuthUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAuthUtilities.framework; sourceTree = "<group>"; };
+		AD1F50CF1D488F1400B2EEE6 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		AD1F50D01D488F1400B2EEE6 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		AD1F50D11D488F1400B2EEE6 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		AD1F50D71D4892EC00B2EEE6 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		AD1F50D91D4895C000B2EEE6 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		AD1F50DB1D48DB4700B2EEE6 /* ViewControllerForLinkedInDash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerForLinkedInDash.h; sourceTree = "<group>"; };
+		AD1F50DC1D48DB4700B2EEE6 /* ViewControllerForLinkedInDash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerForLinkedInDash.m; sourceTree = "<group>"; };
+		AD1F50DF1D48DCC000B2EEE6 /* linkedin-sdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "linkedin-sdk.framework"; sourceTree = "<group>"; };
+		ADA86CEA1D47477B00422503 /* FacebookTwitterLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookTwitterLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA86CEE1D47477C00422503 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADA86CF01D47477C00422503 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADA86CF11D47477C00422503 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADA86CF31D47477C00422503 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADA86CF41D47477C00422503 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADA86CF71D47477C00422503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADA86CF91D47477C00422503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADA86CFC1D47477C00422503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADA86CFE1D47477C00422503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA86D031D47477C00422503 /* FacebookTwitterLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookTwitterLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA86D071D47477C00422503 /* FacebookTwitterLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookTwitterLoginTests.m; sourceTree = "<group>"; };
+		ADA86D091D47477C00422503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA86D0E1D47477C00422503 /* FacebookTwitterLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookTwitterLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA86D121D47477C00422503 /* FacebookTwitterLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookTwitterLoginUITests.m; sourceTree = "<group>"; };
+		ADA86D141D47477C00422503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA86D211D47608000422503 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		ADA86D221D47608000422503 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		ADA86D261D4768C600422503 /* ViewControllerForFacebookDash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerForFacebookDash.h; sourceTree = "<group>"; };
+		ADA86D271D4768C600422503 /* ViewControllerForFacebookDash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerForFacebookDash.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADA86CE71D47477B00422503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1F50D81D4892EC00B2EEE6 /* AdSupport.framework in Frameworks */,
+				AD1F50CA1D4794B700B2EEE6 /* SystemConfiguration.framework in Frameworks */,
+				AD1F50C81D4794AF00B2EEE6 /* SafariServices.framework in Frameworks */,
+				AD1F50C61D4794A700B2EEE6 /* AddressBook.framework in Frameworks */,
+				AD1F50D31D488F1400B2EEE6 /* GoogleAuthUtilities.framework in Frameworks */,
+				AD1F50D51D488F1400B2EEE6 /* GoogleSymbolUtilities.framework in Frameworks */,
+				AD1F50D41D488F1400B2EEE6 /* GoogleNetworkingUtilities.framework in Frameworks */,
+				AD1F50D61D488F1400B2EEE6 /* GoogleUtilities.framework in Frameworks */,
+				AD1F50AD1D476CAF00B2EEE6 /* Bolts.framework in Frameworks */,
+				AD1F50C41D47948700B2EEE6 /* GoogleSignIn.framework in Frameworks */,
+				AD1F50B31D477E2300B2EEE6 /* TwitterKit.framework in Frameworks */,
+				AD1F50D21D488F1400B2EEE6 /* GoogleAppUtilities.framework in Frameworks */,
+				ADA86D241D47608000422503 /* FBSDKLoginKit.framework in Frameworks */,
+				ADA86D231D47608000422503 /* FBSDKCoreKit.framework in Frameworks */,
+				AD1F50B21D477E2300B2EEE6 /* Fabric.framework in Frameworks */,
+				AD1F50E01D48DCC000B2EEE6 /* linkedin-sdk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA86D001D47477C00422503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA86D0B1D47477C00422503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD1F50AE1D47767300B2EEE6 /* TwitterDash */ = {
+			isa = PBXGroup;
+			children = (
+				AD1F50B41D477F6600B2EEE6 /* ViewControllerForTwitterDash.h */,
+				AD1F50B51D477F6600B2EEE6 /* ViewControllerForTwitterDash.m */,
+			);
+			name = TwitterDash;
+			sourceTree = "<group>";
+		};
+		AD1F50AF1D47775D00B2EEE6 /* TwitterSDK */ = {
+			isa = PBXGroup;
+			children = (
+				AD1F50B71D47826F00B2EEE6 /* TwitterKitResources.bundle */,
+				AD1F50B01D477E2300B2EEE6 /* Fabric.framework */,
+				AD1F50B11D477E2300B2EEE6 /* TwitterKit.framework */,
+			);
+			name = TwitterSDK;
+			sourceTree = "<group>";
+		};
+		AD1F50B91D47912D00B2EEE6 /* GoogleDash */ = {
+			isa = PBXGroup;
+			children = (
+				AD1F50BA1D47914600B2EEE6 /* ViewControllerForGoogleDash.h */,
+				AD1F50BB1D47914600B2EEE6 /* ViewControllerForGoogleDash.m */,
+			);
+			name = GoogleDash;
+			sourceTree = "<group>";
+		};
+		AD1F50BD1D47917B00B2EEE6 /* GoogleSDK */ = {
+			isa = PBXGroup;
+			children = (
+				AD1F50CB1D47971300B2EEE6 /* GoogleService-Info.plist */,
+				AD1F50D71D4892EC00B2EEE6 /* AdSupport.framework */,
+				AD1F50C91D4794B700B2EEE6 /* SystemConfiguration.framework */,
+				AD1F50C71D4794AF00B2EEE6 /* SafariServices.framework */,
+				AD1F50C51D4794A700B2EEE6 /* AddressBook.framework */,
+				AD1F50CD1D488F1400B2EEE6 /* GoogleAppUtilities.framework */,
+				AD1F50CE1D488F1400B2EEE6 /* GoogleAuthUtilities.framework */,
+				AD1F50CF1D488F1400B2EEE6 /* GoogleNetworkingUtilities.framework */,
+				AD1F50D01D488F1400B2EEE6 /* GoogleSymbolUtilities.framework */,
+				AD1F50D11D488F1400B2EEE6 /* GoogleUtilities.framework */,
+				AD1F50C11D47948700B2EEE6 /* GoogleSignIn.bundle */,
+				AD1F50C21D47948700B2EEE6 /* GoogleSignIn.framework */,
+			);
+			name = GoogleSDK;
+			sourceTree = "<group>";
+		};
+		AD1F50DA1D48DAFA00B2EEE6 /* LinkedIn */ = {
+			isa = PBXGroup;
+			children = (
+				AD1F50DB1D48DB4700B2EEE6 /* ViewControllerForLinkedInDash.h */,
+				AD1F50DC1D48DB4700B2EEE6 /* ViewControllerForLinkedInDash.m */,
+			);
+			name = LinkedIn;
+			sourceTree = "<group>";
+		};
+		AD1F50DE1D48DCAA00B2EEE6 /* LinkedInSDk */ = {
+			isa = PBXGroup;
+			children = (
+				AD1F50DF1D48DCC000B2EEE6 /* linkedin-sdk.framework */,
+			);
+			name = LinkedInSDk;
+			sourceTree = "<group>";
+		};
+		ADA86CE11D47477B00422503 = {
+			isa = PBXGroup;
+			children = (
+				ADA86CEC1D47477C00422503 /* FacebookTwitterLogin */,
+				ADA86D061D47477C00422503 /* FacebookTwitterLoginTests */,
+				ADA86D111D47477C00422503 /* FacebookTwitterLoginUITests */,
+				ADA86CEB1D47477B00422503 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADA86CEB1D47477B00422503 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADA86CEA1D47477B00422503 /* FacebookTwitterLogin.app */,
+				ADA86D031D47477C00422503 /* FacebookTwitterLoginTests.xctest */,
+				ADA86D0E1D47477C00422503 /* FacebookTwitterLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADA86CEC1D47477C00422503 /* FacebookTwitterLogin */ = {
+			isa = PBXGroup;
+			children = (
+				AD1F50BE1D4791F500B2EEE6 /* ReadMe */,
+				AD1F50D91D4895C000B2EEE6 /* Header.h */,
+				ADA86CF01D47477C00422503 /* AppDelegate.h */,
+				ADA86CF11D47477C00422503 /* AppDelegate.m */,
+				ADA86CF31D47477C00422503 /* ViewController.h */,
+				ADA86CF41D47477C00422503 /* ViewController.m */,
+				ADA86CF61D47477C00422503 /* Main.storyboard */,
+				ADA86D251D4768AA00422503 /* FacebookDash */,
+				AD1F50AE1D47767300B2EEE6 /* TwitterDash */,
+				AD1F50B91D47912D00B2EEE6 /* GoogleDash */,
+				AD1F50DA1D48DAFA00B2EEE6 /* LinkedIn */,
+				ADA86CF91D47477C00422503 /* Assets.xcassets */,
+				ADA86CFB1D47477C00422503 /* LaunchScreen.storyboard */,
+				ADA86CFE1D47477C00422503 /* Info.plist */,
+				ADA86D201D475F8E00422503 /* FacebookSDK */,
+				AD1F50AF1D47775D00B2EEE6 /* TwitterSDK */,
+				AD1F50BD1D47917B00B2EEE6 /* GoogleSDK */,
+				AD1F50DE1D48DCAA00B2EEE6 /* LinkedInSDk */,
+				ADA86CED1D47477C00422503 /* Supporting Files */,
+			);
+			path = FacebookTwitterLogin;
+			sourceTree = "<group>";
+		};
+		ADA86CED1D47477C00422503 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADA86CEE1D47477C00422503 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADA86D061D47477C00422503 /* FacebookTwitterLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADA86D071D47477C00422503 /* FacebookTwitterLoginTests.m */,
+				ADA86D091D47477C00422503 /* Info.plist */,
+			);
+			path = FacebookTwitterLoginTests;
+			sourceTree = "<group>";
+		};
+		ADA86D111D47477C00422503 /* FacebookTwitterLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADA86D121D47477C00422503 /* FacebookTwitterLoginUITests.m */,
+				ADA86D141D47477C00422503 /* Info.plist */,
+			);
+			path = FacebookTwitterLoginUITests;
+			sourceTree = "<group>";
+		};
+		ADA86D201D475F8E00422503 /* FacebookSDK */ = {
+			isa = PBXGroup;
+			children = (
+				AD1F50AC1D476CAF00B2EEE6 /* Bolts.framework */,
+				ADA86D211D47608000422503 /* FBSDKCoreKit.framework */,
+				ADA86D221D47608000422503 /* FBSDKLoginKit.framework */,
+			);
+			name = FacebookSDK;
+			sourceTree = "<group>";
+		};
+		ADA86D251D4768AA00422503 /* FacebookDash */ = {
+			isa = PBXGroup;
+			children = (
+				ADA86D261D4768C600422503 /* ViewControllerForFacebookDash.h */,
+				ADA86D271D4768C600422503 /* ViewControllerForFacebookDash.m */,
+			);
+			name = FacebookDash;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADA86CE91D47477B00422503 /* FacebookTwitterLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA86D171D47477C00422503 /* Build configuration list for PBXNativeTarget "FacebookTwitterLogin" */;
+			buildPhases = (
+				ADA86CE61D47477B00422503 /* Sources */,
+				ADA86CE71D47477B00422503 /* Frameworks */,
+				ADA86CE81D47477B00422503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacebookTwitterLogin;
+			productName = FacebookTwitterLogin;
+			productReference = ADA86CEA1D47477B00422503 /* FacebookTwitterLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADA86D021D47477C00422503 /* FacebookTwitterLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA86D1A1D47477C00422503 /* Build configuration list for PBXNativeTarget "FacebookTwitterLoginTests" */;
+			buildPhases = (
+				ADA86CFF1D47477C00422503 /* Sources */,
+				ADA86D001D47477C00422503 /* Frameworks */,
+				ADA86D011D47477C00422503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA86D051D47477C00422503 /* PBXTargetDependency */,
+			);
+			name = FacebookTwitterLoginTests;
+			productName = FacebookTwitterLoginTests;
+			productReference = ADA86D031D47477C00422503 /* FacebookTwitterLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADA86D0D1D47477C00422503 /* FacebookTwitterLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA86D1D1D47477C00422503 /* Build configuration list for PBXNativeTarget "FacebookTwitterLoginUITests" */;
+			buildPhases = (
+				ADA86D0A1D47477C00422503 /* Sources */,
+				ADA86D0B1D47477C00422503 /* Frameworks */,
+				ADA86D0C1D47477C00422503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA86D101D47477C00422503 /* PBXTargetDependency */,
+			);
+			name = FacebookTwitterLoginUITests;
+			productName = FacebookTwitterLoginUITests;
+			productReference = ADA86D0E1D47477C00422503 /* FacebookTwitterLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADA86CE21D47477B00422503 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "OAB Studios";
+				TargetAttributes = {
+					ADA86CE91D47477B00422503 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					ADA86D021D47477C00422503 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ADA86CE91D47477B00422503;
+					};
+					ADA86D0D1D47477C00422503 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ADA86CE91D47477B00422503;
+					};
+				};
+			};
+			buildConfigurationList = ADA86CE51D47477B00422503 /* Build configuration list for PBXProject "FacebookTwitterLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADA86CE11D47477B00422503;
+			productRefGroup = ADA86CEB1D47477B00422503 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADA86CE91D47477B00422503 /* FacebookTwitterLogin */,
+				ADA86D021D47477C00422503 /* FacebookTwitterLoginTests */,
+				ADA86D0D1D47477C00422503 /* FacebookTwitterLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADA86CE81D47477B00422503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1F50BF1D4791F500B2EEE6 /* ReadMe in Resources */,
+				AD1F50B81D47826F00B2EEE6 /* TwitterKitResources.bundle in Resources */,
+				ADA86CFD1D47477C00422503 /* LaunchScreen.storyboard in Resources */,
+				ADA86CFA1D47477C00422503 /* Assets.xcassets in Resources */,
+				AD1F50C31D47948700B2EEE6 /* GoogleSignIn.bundle in Resources */,
+				ADA86CF81D47477C00422503 /* Main.storyboard in Resources */,
+				AD1F50CC1D47971300B2EEE6 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA86D011D47477C00422503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA86D0C1D47477C00422503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADA86CE61D47477B00422503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1F50B61D477F6600B2EEE6 /* ViewControllerForTwitterDash.m in Sources */,
+				AD1F50DD1D48DB4700B2EEE6 /* ViewControllerForLinkedInDash.m in Sources */,
+				AD1F50BC1D47914600B2EEE6 /* ViewControllerForGoogleDash.m in Sources */,
+				ADA86CF51D47477C00422503 /* ViewController.m in Sources */,
+				ADA86CF21D47477C00422503 /* AppDelegate.m in Sources */,
+				ADA86D281D4768C600422503 /* ViewControllerForFacebookDash.m in Sources */,
+				ADA86CEF1D47477C00422503 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA86CFF1D47477C00422503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA86D081D47477C00422503 /* FacebookTwitterLoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA86D0A1D47477C00422503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA86D131D47477C00422503 /* FacebookTwitterLoginUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADA86D051D47477C00422503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADA86CE91D47477B00422503 /* FacebookTwitterLogin */;
+			targetProxy = ADA86D041D47477C00422503 /* PBXContainerItemProxy */;
+		};
+		ADA86D101D47477C00422503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADA86CE91D47477B00422503 /* FacebookTwitterLogin */;
+			targetProxy = ADA86D0F1D47477C00422503 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADA86CF61D47477C00422503 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA86CF71D47477C00422503 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADA86CFB1D47477C00422503 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA86CFC1D47477C00422503 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADA86D151D47477C00422503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADA86D161D47477C00422503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADA86D181D47477C00422503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jacqueline Melson (BB9XZ6WTK2)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookTwitterLogin",
+				);
+				INFOPLIST_FILE = FacebookTwitterLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oabtesting.sociallogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "acc3061b-3fee-4796-8850-ff7cd19a7221";
+			};
+			name = Debug;
+		};
+		ADA86D191D47477C00422503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jacqueline Melson (BB9XZ6WTK2)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookTwitterLogin",
+				);
+				INFOPLIST_FILE = FacebookTwitterLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oabtesting.sociallogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "acc3061b-3fee-4796-8850-ff7cd19a7221";
+			};
+			name = Release;
+		};
+		ADA86D1B1D47477C00422503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FacebookTwitterLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oabtesting.FacebookTwitterLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookTwitterLogin.app/FacebookTwitterLogin";
+			};
+			name = Debug;
+		};
+		ADA86D1C1D47477C00422503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FacebookTwitterLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oabtesting.FacebookTwitterLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookTwitterLogin.app/FacebookTwitterLogin";
+			};
+			name = Release;
+		};
+		ADA86D1E1D47477C00422503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FacebookTwitterLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oabtesting.FacebookTwitterLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FacebookTwitterLogin;
+			};
+			name = Debug;
+		};
+		ADA86D1F1D47477C00422503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FacebookTwitterLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oabtesting.FacebookTwitterLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FacebookTwitterLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADA86CE51D47477B00422503 /* Build configuration list for PBXProject "FacebookTwitterLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA86D151D47477C00422503 /* Debug */,
+				ADA86D161D47477C00422503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA86D171D47477C00422503 /* Build configuration list for PBXNativeTarget "FacebookTwitterLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA86D181D47477C00422503 /* Debug */,
+				ADA86D191D47477C00422503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA86D1A1D47477C00422503 /* Build configuration list for PBXNativeTarget "FacebookTwitterLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA86D1B1D47477C00422503 /* Debug */,
+				ADA86D1C1D47477C00422503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA86D1D1D47477C00422503 /* Build configuration list for PBXNativeTarget "FacebookTwitterLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA86D1E1D47477C00422503 /* Debug */,
+				ADA86D1F1D47477C00422503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADA86CE21D47477B00422503 /* Project object */;
+}

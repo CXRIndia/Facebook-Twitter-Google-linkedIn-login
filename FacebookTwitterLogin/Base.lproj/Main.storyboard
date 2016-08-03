@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Tmh-j8-VhA">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="exd-ko-5h3">
+                                <rect key="frame" x="14" y="251" width="343" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="yjX-3o-VMy"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="google-signin"/>
+                                <connections>
+                                    <action selector="googleLoginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LD2-jd-niF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iWx-Fg-MU6">
+                                <rect key="frame" x="14" y="146" width="343" height="75"/>
+                                <state key="normal" backgroundImage="facebook-signin"/>
+                                <connections>
+                                    <action selector="facebookLoginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bMd-U6-Iro"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1He-tV-31s">
+                                <rect key="frame" x="14" y="359" width="343" height="75"/>
+                                <state key="normal" backgroundImage="twitter-signin"/>
+                                <connections>
+                                    <action selector="twitterLoginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m6t-LI-B6u"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPJ-er-XBd">
+                                <rect key="frame" x="14" y="460" width="343" height="75"/>
+                                <state key="normal" backgroundImage="linkedin-signin"/>
+                                <connections>
+                                    <action selector="LinkedInLoginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C5x-24-FWs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nPJ-er-XBd" firstAttribute="leading" secondItem="1He-tV-31s" secondAttribute="leading" id="22Q-1r-UTo"/>
+                            <constraint firstItem="iWx-Fg-MU6" firstAttribute="height" secondItem="exd-ko-5h3" secondAttribute="height" id="4Ro-SF-Fxg"/>
+                            <constraint firstItem="nPJ-er-XBd" firstAttribute="height" secondItem="1He-tV-31s" secondAttribute="height" id="6hI-7O-vL1"/>
+                            <constraint firstItem="nPJ-er-XBd" firstAttribute="top" secondItem="1He-tV-31s" secondAttribute="bottom" constant="26" id="76W-ef-DeP"/>
+                            <constraint firstItem="1He-tV-31s" firstAttribute="height" secondItem="exd-ko-5h3" secondAttribute="height" id="7bQ-bG-wsb"/>
+                            <constraint firstItem="iWx-Fg-MU6" firstAttribute="leading" secondItem="exd-ko-5h3" secondAttribute="leading" id="AqS-WQ-Lrh"/>
+                            <constraint firstItem="exd-ko-5h3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-2" id="EkV-Fz-DzE"/>
+                            <constraint firstItem="1He-tV-31s" firstAttribute="trailing" secondItem="exd-ko-5h3" secondAttribute="trailing" id="M9U-7o-FvX"/>
+                            <constraint firstItem="iWx-Fg-MU6" firstAttribute="trailing" secondItem="exd-ko-5h3" secondAttribute="trailing" id="SS0-WV-lG6"/>
+                            <constraint firstItem="nPJ-er-XBd" firstAttribute="trailing" secondItem="1He-tV-31s" secondAttribute="trailing" id="VXJ-IN-dQ2"/>
+                            <constraint firstItem="exd-ko-5h3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-45" id="Ybv-pe-fxt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="exd-ko-5h3" secondAttribute="trailing" constant="2" id="jDU-gi-rTg"/>
+                            <constraint firstItem="1He-tV-31s" firstAttribute="top" secondItem="exd-ko-5h3" secondAttribute="bottom" constant="33" id="pCZ-Tp-JSB"/>
+                            <constraint firstItem="exd-ko-5h3" firstAttribute="top" secondItem="iWx-Fg-MU6" secondAttribute="bottom" constant="30" id="pXF-fK-bEN"/>
+                            <constraint firstItem="1He-tV-31s" firstAttribute="leading" secondItem="exd-ko-5h3" secondAttribute="leading" id="t6A-ZZ-ZVT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="u3e-aV-h5Z"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1360" y="1101"/>
+        </scene>
+        <!--View Controller For Facebook Dash-->
+        <scene sceneID="WT8-05-Djq">
+            <objects>
+                <viewController storyboardIdentifier="ViewControllerForFacebookDash" id="zp6-Ca-7Tq" customClass="ViewControllerForFacebookDash" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HRg-Bl-2ig"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xs5-AV-sT9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ecZ-Zr-PTn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YKA-yy-Cdn">
+                                <rect key="frame" x="241" y="285" width="119" height="30"/>
+                                <state key="normal" title="Logout Facebook"/>
+                                <connections>
+                                    <action selector="logoutFacebookButtonPressed:" destination="zp6-Ca-7Tq" eventType="touchUpInside" id="UQn-I1-cs6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YKA-yy-Cdn" firstAttribute="centerX" secondItem="ecZ-Zr-PTn" secondAttribute="centerX" id="Tjx-cK-3AO"/>
+                            <constraint firstItem="YKA-yy-Cdn" firstAttribute="centerY" secondItem="ecZ-Zr-PTn" secondAttribute="centerY" id="yRc-RF-Ka3"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D9a-n4-Vem" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2107" y="430"/>
+        </scene>
+        <!--View Controller For Linked In Dash-->
+        <scene sceneID="LWP-SU-veL">
+            <objects>
+                <viewController storyboardIdentifier="ViewControllerForLinkedInDash" id="mm4-hZ-75a" customClass="ViewControllerForLinkedInDash" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ecb-a0-qMM"/>
+                        <viewControllerLayoutGuide type="bottom" id="hhx-4w-Osu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KdE-Z0-Tge">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jkr-iz-91T">
+                                <rect key="frame" x="245" y="285" width="110" height="30"/>
+                                <state key="normal" title="Logout LinkedIn"/>
+                                <connections>
+                                    <action selector="logoutLinkedInButtonPressed:" destination="mm4-hZ-75a" eventType="touchUpInside" id="1WE-1q-2td"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Jkr-iz-91T" firstAttribute="centerY" secondItem="KdE-Z0-Tge" secondAttribute="centerY" id="Sff-pW-bkP"/>
+                            <constraint firstItem="Jkr-iz-91T" firstAttribute="centerX" secondItem="KdE-Z0-Tge" secondAttribute="centerX" id="cvk-0L-b5d"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YEf-du-Kzx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2107" y="2457"/>
+        </scene>
+        <!--View Controller For Twitter Dash-->
+        <scene sceneID="uFv-AW-XDe">
+            <objects>
+                <viewController storyboardIdentifier="ViewControllerForTwitterDash" id="p9n-mN-va3" customClass="ViewControllerForTwitterDash" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wo0-is-R4D"/>
+                        <viewControllerLayoutGuide type="bottom" id="vHr-oD-5pu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZXv-JV-yZS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qFJ-lo-jEx">
+                                <rect key="frame" x="250" y="285" width="100" height="30"/>
+                                <state key="normal" title="Logout Twitter"/>
+                                <connections>
+                                    <action selector="logoutTwitterButtonPressed:" destination="p9n-mN-va3" eventType="touchUpInside" id="OVY-pb-air"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qFJ-lo-jEx" firstAttribute="centerY" secondItem="ZXv-JV-yZS" secondAttribute="centerY" id="GqZ-63-8hD"/>
+                            <constraint firstItem="qFJ-lo-jEx" firstAttribute="centerX" secondItem="ZXv-JV-yZS" secondAttribute="centerX" id="plj-26-hDR"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bb5-vk-1kz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2107" y="1101"/>
+        </scene>
+        <!--View Controller For Google Dash-->
+        <scene sceneID="Toe-JK-IWA">
+            <objects>
+                <viewController storyboardIdentifier="ViewControllerForGoogleDash" id="ioy-Jw-iAG" customClass="ViewControllerForGoogleDash" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="S6L-XI-ici"/>
+                        <viewControllerLayoutGuide type="bottom" id="Knf-3M-MJa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dmP-M5-D5u">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wVV-AS-Kdq">
+                                <rect key="frame" x="250" y="285" width="101" height="30"/>
+                                <state key="normal" title="Logout Google"/>
+                                <connections>
+                                    <action selector="logoutGoogleButtonPressed:" destination="ioy-Jw-iAG" eventType="touchUpInside" id="Vgc-AS-PdZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wVV-AS-Kdq" firstAttribute="centerX" secondItem="dmP-M5-D5u" secondAttribute="centerX" id="j9O-cg-0mD"/>
+                            <constraint firstItem="wVV-AS-Kdq" firstAttribute="centerY" secondItem="dmP-M5-D5u" secondAttribute="centerY" id="ynZ-WI-9M0"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c5g-nS-icb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2107" y="1784"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="GfZ-6C-fLr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Tmh-j8-VhA" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eUD-WG-SDt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="hLe-Ce-F90"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tCC-m7-gAv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="586" y="1101"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="facebook-signin" width="492" height="108"/>
+        <image name="google-signin" width="492" height="108"/>
+        <image name="linkedin-signin" width="215" height="41"/>
+        <image name="twitter-signin" width="492" height="108"/>
+    </resources>
+</document>
