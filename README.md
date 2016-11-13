@@ -1,4 +1,4 @@
-# Fb-Twiiter-Google-likedin-login
+# Facebook-Twitter-Google-linkedIn-login
 This repository contain sample code for FB, twitter, Google and Linkedin.
 
 Bundle id:
