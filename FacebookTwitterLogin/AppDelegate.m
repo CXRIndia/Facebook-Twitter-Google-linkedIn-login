@@ -88,13 +88,9 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 - (BOOL)application:(UIApplication *)app
             openURL:(NSURL *)url
             options:(NSDictionary *)options {
-    
     return [[GIDSignIn sharedInstance] handleURL:url
                                sourceApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey]
-                                      annotation:options[UIApplicationOpenURLOptionsAnnotationKey]] || [[FBSDKApplicationDelegate sharedInstance] application:app
-                                                                                                                                                      openURL:url
-                                                                                                                                            sourceApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey]
-                                                                                                                                                   annotation:options[UIApplicationOpenURLOptionsAnnotationKey]];
+                                      annotation:options[UIApplicationOpenURLOptionsAnnotationKey]];
 }
 
 
